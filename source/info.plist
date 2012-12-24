@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action</key>
+	<false/>
+	<key>category</key>
+	<string>SCRIPTS</string>
+	<key>command</key>
+	<string>response="{query}"
+if [ $response == "fs" ]
+then
+	screencapture -cP ~/Pictures/Screenshots/full-screenshot.png
+	echo "Snap Saved to your Pictures Folder"
+elif [ $response == "w" ]
+then
+	screencapture -icWP ~/Pictures/Screenshots/window-screenshot.png
+	echo "Snap Saved to your Pictures Folder"
+elif [ $response == "s" ]
+then
+	screencapture -icP ~/Pictures/Screenshots/selection-screenshot.png
+	echo "Snap Saved to your Pictures Folder"
+else
+	echo "Query must be: fs (fullscreen), w (window) or s (selection)."
+fi</string>
+	<key>disabled</key>
+	<false/>
+	<key>escapedollar</key>
+	<true/>
+	<key>escapequery</key>
+	<true/>
+	<key>escapequerybackquotes</key>
+	<true/>
+	<key>escapequerybrackets</key>
+	<true/>
+	<key>escapequeryquotes</key>
+	<true/>
+	<key>escapequerysemicolons</key>
+	<true/>
+	<key>growloutput</key>
+	<true/>
+	<key>growloutputsticky</key>
+	<false/>
+	<key>keyword</key>
+	<string>ss</string>
+	<key>logging</key>
+	<false/>
+	<key>multifileargs</key>
+	<false/>
+	<key>parameter</key>
+	<integer>0</integer>
+	<key>silent</key>
+	<true/>
+	<key>subtitle</key>
+	<string>choose fs, w or s</string>
+	<key>title</key>
+	<string>Take Screen Shot</string>
+</dict>
+</plist>
