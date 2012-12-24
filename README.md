@@ -28,25 +28,10 @@ Edit Default Image App
 
 ######Add the following values:
 	
-	response="{query}"
-	if [ $response == "fs" ]
-	then
 		screencapture -ic  ~/YOUR NEW FOLDER PATH/custom_file_name.extensionType
 		echo "Snap Saved to your YOUR NEW FOLDER PATH"
 		open -a YOUR APPLICATION NAME ~/YOUR NEW FOLDER PATH/custom_file_name.extensionType
-	elif [ $response == "w" ]
-	then
-		screencapture -ic  ~/YOUR NEW FOLDER PATH/custom_file_name.extensionType
-		echo "Snap Saved to your YOUR NEW FOLDER PATH"
-		open -a YOUR APPLICATION NAME ~/YOUR NEW FOLDER PATH/custom_file_name.extensionType
-	elif [ $response == "s" ]
-	then
-		screencapture -ic  ~/YOUR NEW FOLDER PATH/custom_file_name.extensionType
-		echo "Snap Saved to your YOUR NEW FOLDER PATH"
-		open -a YOUR APPLICATION NAME ~/YOUR NEW FOLDER PATH/custom_file_name.extensionType
-	else
-		echo "Query must be: fs (fullscreen), w (window) or s (selection)."
-	fi
+
     
 Example
 ----------------
