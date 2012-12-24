@@ -42,11 +42,13 @@ Example
 	then
 		screencapture -ic ~/Desktop/fullscreen-snap.png
 		echo "Snap Saved to your Desktop"
-		open -a "Adobe Photoshop CS6" ~/Desktop/fullscreen-snap.png	elif [ $response == "w" ]
+		open -a "Adobe Photoshop CS6" ~/Desktop/fullscreen-snap.png	
+	elif [ $response == "w" ]
 	then
 		screencapture -ic ~/Desktop/window-snap.png
 		echo "Snap Saved to your Desktop"
-		open -a "Adobe Photoshop CS6" ~/Desktop/window-snap.png	elif [ $response == "s" ]
+		open -a "Adobe Photoshop CS6" ~/Desktop/window-snap.png	
+	elif [ $response == "s" ]
 	then
 		screencapture -ic ~/Desktop/selection-snap.png
 		echo "Snap Saved to your Desktop"
