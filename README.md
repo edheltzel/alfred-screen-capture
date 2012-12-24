@@ -1,7 +1,7 @@
 Screen Capture for Alfred
 ============
 
-An few simple terminal commands so you can take screen shots from [Alfred App](http://alfredapp.com/) and edit them in Privew. You will need Alfred and the Powerpack to use this.
+An few simple terminal commands so you can take screen shots from [Alfred App](http://alfredapp.com/) and edit them in Preview. You will need Alfred and the Powerpack to use this.
 
 Installation
 ----------------
