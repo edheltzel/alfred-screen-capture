@@ -29,7 +29,7 @@ How to use
 
 ######Alfred 2
 
-![Alfred screenshot 2]()  
+![Alfred screenshot 2](https://raw.githubusercontent.com/ginfuru/Alfred-ScreenCapture/master/screenshot.png)  
 select the action you want to do... and hit Enter
 
 *If you're doing a time screen capture you'll need to set the length in seconds*
@@ -37,6 +37,21 @@ select the action you want to do... and hit Enter
 >A few things new in Alfred 2 to keep in mind:  
 **Currently have the file names set to the date and time ** 
 
+Edit Image Name
+----------------
+1. Open each Action `Run Script` inside of the workflow so you see:  
+			
+			now=$(date +"%m_%d_%y at %I.%M.%S%p")
+			screencapture -icWP ~/Desktop/$now.png
+
+			# echo something
+			echo  $now.png
+2. Edit the line: `screencapture -icWP ~/Desktop/$now.png` and change `$now.png` 
+	* ie: `$now.png` becomes `screen-shot.jpg`
+
+			
+	
+			
 Edit Default Image App
 ----------------
 ######Change the following on all three commands:
