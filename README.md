@@ -1,23 +1,41 @@
-Screen Capture for Alfred
+Screen Capture and Edit for Alfred / Alfred 2
 ============
+> Updated for Alfred 2 workflows
 
-An few simple terminal commands so you can take screen shots from [Alfred App](http://alfredapp.com/) and edit them in Preview. You will need Alfred and the Powerpack to use this.
+Created this little productivity saver to help write documentation. I'm not a fan of having an app just sitting in the menu bar... not to mention most of the features are built right into the OS. 
+
+All this workflow is just a list of a few simple terminal commands so you can take screen capture/shot from [Alfred](http://alfredapp.com/) and edit them in Preview. 
+
+######Requirments:
+ 1. [Alfred](http://www.alfredapp.com/#download) (free)
+ 2. [Powerpack](http://www.alfredapp.com/powerpack/) (£17)
+
 
 Installation
 ----------------
 
-To install Screen Capture in Alfred **double click on the extension file**.
+To install in Alfred ***double click on the extension file***.  
+Tp install in Alfred 2 ***double click on the workflow file***.
 
 How to use
 ----------------
 
-######Once installed with Alfred you can run the following commands
+######Alfred 1
 
 
     snap fs   ::  Take a screen shot of your full screen
     snap w    ::  Take a screen shot of any open window
     snap s    ::  Take a screen shot of a selection of your screen
-      
+
+######Alfred 2
+
+![Alfred screenshot 2]()  
+select the action you want to do... and hit Enter
+
+*If you're doing a time screen capture you'll need to set the length in seconds*
+
+>A few things new in Alfred 2 to keep in mind:  
+**Currently have the file names set to the date and time ** 
 
 Edit Default Image App
 ----------------
@@ -60,7 +78,7 @@ Example
 
 Download and Help
 ----------------
-Direct Download &#x2192; [Screen Capture](http://rnydm.us/Lfs0) 
+Direct Download &#x2192; [Screen Capture](http://i.makitra.in/Ndbp)   
+Alfred Forums &#x2192; [comment on the topic](http://www.alfredforum.com/topic/1118-screen-shot-with-aflred/)
 
-Helpful Files &#x2192; [Screen Capture Help](dev.rainydaymedia.net/alfred)
     
