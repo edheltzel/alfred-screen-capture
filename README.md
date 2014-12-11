@@ -6,7 +6,7 @@ Created this little productivity saver to help write documentation. I'm not a fa
 
 All this workflow is just a list of a few simple terminal commands so you can take screen capture/shot from [Alfred](http://alfredapp.com/) and edit them in Preview. 
 
-######Requirments:
+######Requirements:
  1. [Alfred](http://www.alfredapp.com/#download) (free)
  2. [Powerpack](http://www.alfredapp.com/powerpack/) (£17)
 
