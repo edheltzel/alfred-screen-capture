@@ -93,7 +93,7 @@ Example
 
 Download and Help
 ----------------
-Direct Download &#x2192; [Screen Capture](http://i.makitra.in/Ndbp)   
+Direct Download &#x2192; [Screen Capture](https://github.com/ginfuru/alfred-screen-capture/blob/master/screen%20capture.alfredextension?raw=true)   
 Alfred Forums &#x2192; [comment on the topic](http://www.alfredforum.com/topic/1118-screen-shot-with-aflred/)
 
     
